@@ -30,4 +30,4 @@
 7. **rm -rf .git** - remove a local repository in current working directory.
 8. **git status** - status of your repository.
 9. **git add --all** - add all files in directory to repository (__in tracked status__).
-10.
+10.**git** __add__ __filename__ - add one file to tracked.
