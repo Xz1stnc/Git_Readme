@@ -7,15 +7,15 @@
 ----
 
 1. **cd** __*directory name*__ - move to selected directory.
-2. **ls** __-a__ - write a file list in working directory.
-3. **touch** __filename__ - create a new file in working directory.
-4. **mkdir** __directory_name__ - create a new directory in working directory.
-5. **cp** __target_name__ __directory_name__ - copy target file to target directory.
-6. **mv** __target_name__ __directory_name__ - move target file to target directory.
-7. **cat** __target_file__ - read any target text file, return echo in terminal.
-8. **rm** __target_file__ - remove target file from working directory.
-9. **rmdir** __dir_name__ - remove empty dir.
-10. **rm** __-r__ __target_dir__ - remove dir and all inclusive files (recursive).
+2. **ls** __*-a*__ - write a file list in working directory.
+3. **touch** __*filename*__ - create a new file in working directory.
+4. **mkdir** __*directory_name*__ - create a new directory in working directory.
+5. **cp** __*target_name*__ __*directory_name*__ - copy target file to target directory.
+6. **mv** __*target_name*__ __*directory_name*__ - move target file to target directory.
+7. **cat** __*target_file*__ - read any target text file, return echo in terminal.
+8. **rm** __*target_file*__ - remove target file from working directory.
+9. **rmdir** __*dir_name*__ - remove empty dir.
+10. **rm** __*-r*__ __*target_dir*__ - remove dir and all inclusive files (recursive).
 11. **&&** - fuse commands (touch text.txt&&cat text.txt).
 
 ----
@@ -30,4 +30,6 @@
 7. **rm -rf .git** - remove a local repository in current working directory.
 8. **git status** - status of your repository.
 9. **git add --all** - add all files in directory to repository (__in tracked status__).
-10.**git** __add__ __filename__ - add one file to tracked.
+10. **git** __add__ __filename__ - add one file to tracked.
+11. **git** __*add ./directoryname*__ - add directory to tracked.
+12. **git** __*commit*__ __*-m*__ - create commit with text message.
